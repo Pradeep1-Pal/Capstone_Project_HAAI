@@ -132,7 +132,7 @@ def display_candidate_header(result):
             st.info(result['profile'])
 
 
-def display_score_breakdown(result):
+def display_score_breakdown(result, unique_id):
     """Display detailed score breakdown with modern UI"""
     st.markdown("### Score Breakdown")
     
@@ -143,7 +143,7 @@ def display_score_breakdown(result):
         total_score = result.get('total_score', 0)
         passing_score = getattr(modelconfig, 'PASSING_SCORE', 70)
         fig = create_donut_chart(total_score, passing_score)
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, use_container_width=True, key=f"donut_{unique_id}")
         
         status = "ELIGIBLE" if total_score >= passing_score else "NOT ELIGIBLE"
         status_color = "green" if total_score >= passing_score else "red"
@@ -181,7 +181,7 @@ def display_score_breakdown(result):
                 st.divider()
 
 
-def display_detailed_analysis(result):
+def display_detailed_analysis(result, unique_id):
     """Display detailed analysis sections"""
     tab1, tab2, tab3, tab4 = st.tabs(["🎓 Education", "💼 Experience", "🛠️ Skills", "🚀 Projects"])
     
@@ -191,7 +191,7 @@ def display_detailed_analysis(result):
             col1, col2 = st.columns([1, 3])
             with col1:
                 fig = create_score_gauge(edu['score'], 10, "Education Score")
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, use_container_width=True, key=f"edu_gauge_{unique_id}")
             with col2:
                 st.markdown("#### Analysis")
                 st.write(edu.get('reason', 'N/A'))
@@ -202,7 +202,7 @@ def display_detailed_analysis(result):
             col1, col2 = st.columns([1, 3])
             with col1:
                 fig = create_score_gauge(exp['score'], 20, "Experience Score")
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, use_container_width=True, key=f"exp_gauge_{unique_id}")
             with col2:
                 st.markdown("#### Analysis")
                 st.write(exp.get('reason', 'N/A'))
@@ -213,7 +213,7 @@ def display_detailed_analysis(result):
             col1, col2 = st.columns([1, 3])
             with col1:
                 fig = create_score_gauge(skills['score'], 30, "Skills Score")
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, use_container_width=True, key=f"skills_gauge_{unique_id}")
             with col2:
                 st.markdown("#### Skills Analysis")
                 st.write(skills.get('reason', 'N/A'))
@@ -243,7 +243,7 @@ def display_detailed_analysis(result):
             col1, col2 = st.columns([1, 3])
             with col1:
                 fig = create_score_gauge(proj['score'], 20, "Projects Score")
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, use_container_width=True, key=f"proj_gauge_{unique_id}")
             with col2:
                 st.markdown("#### Projects Analysis")
                 st.write(proj.get('reason', 'N/A'))
@@ -332,8 +332,6 @@ def main():
                     except Exception as e:
                         st.error(f"Error reading JD: {e}")
     
-    # st.divider()
-    
     # Resume Selection with Select All
     with st.container(border=True):
         st.markdown("#### 📁 Select Resumes")
@@ -390,10 +388,13 @@ def main():
         for idx, resume_file in enumerate(selected_resumes):
             resume_path = os.path.join("./cvs", resume_file)
             
+            # Create unique ID for this resume
+            unique_id = f"{idx}_{resume_file.replace('.', '_')}"
+            
             status_text.text(f"Processing {idx + 1}/{len(selected_resumes)}: {resume_file}")
             progress_bar.progress((idx + 1) / len(selected_resumes))
 
-            with st.container(border = True):
+            with st.container(border=True):
             
                 try:
 
@@ -416,13 +417,12 @@ def main():
 
                         
                     
-                    # st.markdown("---")
                     st.success(f"✅ Completed: {resume_file} (in {elapsed_time:.2f}s)")
                     
-                    # Display results
+                    # Display results with unique_id
                     display_candidate_header(result)
-                    display_score_breakdown(result)
-                    display_detailed_analysis(result)
+                    display_score_breakdown(result, unique_id)
+                    display_detailed_analysis(result, unique_id)
                     display_overall_assessment(result)
                     
                     # Auto-save to database
@@ -433,11 +433,8 @@ def main():
                     st.error(f"❌ Error evaluating {resume_file}: {str(e)}")
         
         status_text.text("✅ All evaluations completed!")
-        # st.balloons()/
 
 
-
-    
 
 if __name__ == "__main__":
     main()

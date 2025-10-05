@@ -1,6 +1,7 @@
 timestamp,name,email,phone,total_score,education_score,experience_score,skills_score,projects_score,certifications_score,links_score,status
 2025-10-05 17:04:19,ABHISHEK,oyeeabhi2001@gmail.com,6397953217,19.0,5.0,2.0,3.0,7.0,2.0,0.0,fail
 2025-10-05 18:28:01,Aryan Satija,aryan.satija@gmail.com,+91-8368789504,52.0,8.5,9.2,9.5,9.0,7.8,8.0,fail
-2025-10-05 19:37:12,Aryan Satija,,+91-8368789504,22.0,5.0,0.0,6.0,5.0,0.0,6.0,fail
-2025-10-05 19:37:46,Hariom Kumar Jha,hjhariomjha03@gmail.com,+91-6202637854,37.0,9.0,2.0,9.0,4.0,3.0,10.0,fail
-2025-10-05 19:38:28,MAITRI,Maitri.singh2802@gmail.com,7352504529,12.0,2.0,1.0,3.0,2.0,4.0,0.0,fail
+2025-10-05 19:57:28,Aryan Satija,,+91-8368789504,31.0,10.0,0.0,10.0,5.0,0.0,6.0,fail
+2025-10-05 19:58:00,Hariom Kumar Jha,hjhariomjha03@gmail.com,+91-6202637854,31.0,8.0,3.0,4.0,2.0,4.0,10.0,fail
+2025-10-05 19:58:37,MAITRI,Maitri.singh2802@gmail.com,7352504529,19.0,3.0,2.0,5.0,3.0,6.0,0.0,fail
+2025-10-05 19:58:55,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,fail
