@@ -1,0 +1,79 @@
+# job role : full stack developer
+
+**Organization:** onelogia  
+**Last Date of Application:** 2025-10-05  
+**Number of Positions:** 1  
+**Created:** 2025-10-05 18:43:01
+
+---
+
+## Job Description
+
+About the Role
+
+We are looking for a talented Full Stack Developer to join our growing technology team. The ideal candidate will be responsible for designing, developing, and maintaining scalable web applications using modern front-end and back-end technologies. You’ll work closely with designers, product managers, and other developers to deliver high-quality software solutions.
+
+Key Responsibilities
+
+Develop, test, and deploy responsive web applications across the full stack.
+
+Collaborate with UI/UX designers to translate wireframes and mockups into functional code.
+
+Build and maintain RESTful or GraphQL APIs and integrate them with front-end applications.
+
+Optimize applications for performance, scalability, and reliability.
+
+Write clean, maintainable, and well-documented code following best practices.
+
+Participate in code reviews, debugging, and troubleshooting issues.
+
+Stay up to date with emerging technologies and recommend improvements.
+
+Collaborate with cross-functional teams (Product, QA, DevOps) to ensure timely project delivery.
+
+Required Skills & Qualifications
+
+Bachelor’s degree in Computer Science, Engineering, or related field (or equivalent experience).
+
+2–5 years of experience as a Full Stack Developer or similar role.
+
+Strong proficiency in front-end technologies: HTML5, CSS3, JavaScript (ES6+), and frameworks like React.js, Vue.js, or Angular.
+
+Hands-on experience with back-end technologies such as Node.js, Express.js, Python (Django/Flask), or Java (Spring Boot).
+
+Experience working with databases (SQL – MySQL/PostgreSQL; NoSQL – MongoDB, Redis).
+
+Knowledge of version control systems (Git, GitHub, GitLab).
+
+Familiarity with cloud services (AWS, Azure, GCP) and CI/CD pipelines is a plus.
+
+Understanding of containerization tools such as Docker and Kubernetes is an advantage.
+
+Soft Skills
+
+Strong analytical and problem-solving skills.
+
+Excellent communication and teamwork abilities.
+
+Self-motivated and eager to learn new technologies.
+
+Ability to manage time effectively and work in a fast-paced environment.
+
+Preferred Qualifications
+
+Experience with TypeScript or Next.js/Nest.js.
+
+Exposure to microservices architecture.
+
+Understanding of Agile/Scrum methodologies.
+
+Benefits
+
+Competitive salary and performance-based incentives.
+
+Health insurance and paid time off.
+
+Learning & development opportunities.
+
+Flexible working hours and hybrid/remote options.
+

@@ -1,0 +1,65 @@
+{
+  "name": "Abhishek",
+  "email": "oyeeabhi2001@gmail.com",
+  "phone": "6397953217",
+  "profile": "Detail-oriented team player with strong organizational skills. Bringing forth a motivated attitude and a variety of powerful skill, innovative programmer and Internet Entrepreneur striving to make the world a more unified and connected Place. A creative thinker, adept in software development.",
+  "bio": "Software Engineer with a focus on AI development, possessing skills in Java, CSS, HTML, JavaScript, and UI/UX design.  Experience includes developing AI-based Discord bots and medical applications.",
+  "education": {
+    "score": 8,
+    "reason": "Holds a B.Tech degree from DRONACHARYA GROUP OF INSTITUTIONS, Greater Noida.  The degree is relevant to the job requirements. GPA information is missing, so a full 10 points cannot be awarded."
+  },
+  "experience": {
+    "score": 12,
+    "reason": "The resume indicates 3+ years of experience, aligning with the job requirements. The projects listed demonstrate practical application of skills, contributing to a score of 12."
+  },
+  "certifications": {
+    "score": 4,
+    "certification_list": [
+      "RED HAT APTITUDE",
+      "AWS ACADEMY"
+    ],
+    "reason": "The certifications are relevant to cloud technologies and AI development, earning a score of 4."
+  },
+  "skills": {
+    "score": 26,
+    "skills_possessed": [
+      "Java",
+      "CSS",
+      "HTML",
+      "JavaScript",
+      "UI/Ux Design"
+    ],
+    "skills_required": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "scikit-learn",
+      "Keras",
+      "API development",
+      "Docker",
+      "Kubernetes",
+      "Git",
+      "AWS SageMaker",
+      "GCP AI Platform",
+      "Azure ML"
+    ],
+    "reason": "The resume lists several skills relevant to the job description, with a score of 26."
+  },
+  "active_links": {
+    "score": 1,
+    "links": [
+      "oyeeabhi2001@gmail.com"
+    ],
+    "reason": "The email address is provided, earning a score of 2."
+  },
+  "projects": {
+    "score": 16,
+    "projects": [
+      "AI based Discord Bot [we can chat with this bot and this will reply like a human with the help of OpenAI]",
+      "Medical APP [In this app we can get any medicine name for any illness for any gender and age group free of cost and also get a link for that medicine]"
+    ],
+    "reason": "The projects are relevant to AI development and demonstrate practical skills, earning a score of 16."
+  },
+  "total_score": 79,
+  "overall_assessment": "This candidate demonstrates a good fit for the mid-level Software Engineer (AI) role at NovaTech Innovations. Their education, project experience, and listed skills align well with the job requirements.  While some skills are not explicitly listed in the resume, the projects suggest a foundation in AI development.  Further assessment would require a deeper dive into the technical details of the projects and a confirmation of the listed skills."
+}

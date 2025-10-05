@@ -1,0 +1,24 @@
+[[pages]]
+path = "ui01Home.py"
+name = "home"
+icon = "🛸"
+
+[[pages]]
+path = "ui02Dashboard.py"
+name = "Dashboard"
+icon = "🌷"
+
+[[pages]]
+path = "ui03UploadResume.py"
+name = "Upload Resume"
+icon = "📄"
+
+[[pages]]
+path = "ui04UploadJD.py"
+name = "Upload Job Description"
+icon = "💼"
+
+[[pages]]
+path = "ui05Leaderboard.py"
+name = "Leaderboard"
+icon = "🏆"

@@ -1,0 +1,95 @@
+## **Job Title:** Software Engineer – Artificial Intelligence (AI)
+
+### **Company:** NovaTech Innovations Pvt. Ltd.
+
+### **Location:** Bengaluru, Karnataka, India (Hybrid – 3 days office / 2 days remote)
+
+### **Employment Type:** Full-Time
+
+### **Experience Level:** Mid-Level (3+ Years)
+
+### **Salary Range:** ₹10,00,000 – ₹18,00,000 per annum (based on experience)
+
+### **Department:** Engineering & Product Development
+
+### **Reports To:** Lead AI Architect
+
+---
+
+### **About NovaTech Innovations**
+
+NovaTech Innovations is a rapidly growing technology company specializing in **AI-driven software solutions** for industries such as finance, healthcare, and retail. Our mission is to empower organizations through **intelligent automation, predictive analytics, and machine learning technologies** that transform how businesses operate and make decisions.
+
+At NovaTech, you’ll be part of a collaborative environment where innovation, learning, and creativity are encouraged every day.
+
+---
+
+### **Position Overview**
+
+We are looking for a **Software Engineer with expertise in Artificial Intelligence** to join our AI Engineering team. The ideal candidate will have hands-on experience designing, developing, and deploying machine learning models and intelligent systems that solve real-world problems. You’ll collaborate with data scientists, backend engineers, and product teams to create scalable AI-powered products.
+
+---
+
+### **Key Responsibilities**
+
+* Develop, test, and deploy **machine learning and deep learning models** for production use.
+* Build and maintain **data pipelines and ETL workflows** to support AI initiatives.
+* Collaborate with data science and product teams to identify and implement **AI-based solutions**.
+* Integrate AI models with applications via **RESTful APIs and microservices**.
+* Work with **cloud environments (AWS, Azure, or GCP)** to deploy and monitor models.
+* Conduct **model optimization** for performance, scalability, and accuracy.
+* Research and implement the latest advancements in **AI frameworks and tools**.
+* Contribute to **code reviews, documentation, and process improvements**.
+* Participate in brainstorming sessions to develop innovative AI-driven features.
+
+---
+
+### **Required Qualifications**
+
+* **Bachelor’s or Master’s degree** in Computer Science, Artificial Intelligence, Data Science, or a related field.
+* Minimum **3 years of hands-on experience** as a Software Engineer or AI Engineer.
+* Proficiency in **Python** and familiarity with frameworks like **TensorFlow, PyTorch, scikit-learn, or Keras**.
+* Strong understanding of **machine learning algorithms, data structures, and software design principles**.
+* Experience with **data preprocessing, feature engineering, and model evaluation techniques**.
+* Knowledge of **API development**, **containerization (Docker, Kubernetes)**, and **version control (Git)**.
+* Exposure to **cloud-based AI deployment** (AWS SageMaker, GCP AI Platform, or Azure ML).
+* Strong analytical, problem-solving, and debugging skills.
+
+---
+
+### **Preferred Skills**
+
+* Experience with **Natural Language Processing (NLP)** or **Computer Vision**.
+* Familiarity with **MLOps pipelines** and **model monitoring tools**.
+* Understanding of **LLMs (Large Language Models)**, **Hugging Face**, **LangChain**, or **OpenAI API**.
+* Experience working with **big data frameworks** (Spark, Hadoop).
+* Contribution to **open-source AI or data science projects**.
+
+---
+
+### **Soft Skills**
+
+* Excellent communication and teamwork abilities.
+* Self-motivated with strong attention to detail.
+* Passion for learning and staying current with AI and ML trends.
+* Ability to work in a fast-paced, dynamic environment.
+
+---
+
+### **Perks & Benefits**
+
+* Competitive compensation package with annual performance bonuses.
+* Flexible hybrid work setup (work from home & office).
+* Health insurance and wellness benefits.
+* Paid learning & certification programs in AI/ML.
+* Employee stock options (ESOPs) for high performers.
+* Modern workspace with free snacks, coffee, and team events.
+
+---
+
+### **How to Apply**
+
+Interested candidates can send their **resume and portfolio/GitHub profile** to:
+📧 **[careers@novatech.ai](mailto:careers@novatech.ai)**
+Subject Line: *Application – Software Engineer (AI)*
+

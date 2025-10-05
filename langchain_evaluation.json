@@ -1,0 +1,71 @@
+{
+  "structured_evaluation": {
+    "name": "ABHISHEK",
+    "email": "oyeeabhi2001@gmail.com",
+    "phone": "6397953217",
+    "profile": "Detail-oriented team player with strong organizational skills. Bringing forth a motivated attitude and a variety of powerful skill, innovative programmer and Internet Entrepreneur striving to make the world a more unified and connected Place. A creative thinker, adept in software development.",
+    "bio": "",
+    "education": {
+      "score": 7,
+      "reason": "Candidate holds a relevant B-Tech degree, meeting the minimum requirement. Score is moderate as specific specialization and academic performance details are not provided."
+    },
+    "experience": {
+      "score": 0,
+      "reason": "The role requires 3+ years of experience, but the candidate is a recent graduate with no professional experience listed, resulting in a score of zero."
+    },
+    "certifications": {
+      "score": 4,
+      "certification_list": [
+        "RED HAT APTITUDE",
+        "SKILLS UP WITH IBM",
+        "AWS ACADEMY"
+      ],
+      "reason": "Candidate lists several generic certifications. They show initiative but lack the depth of specialized, industry-recognized AI/ML certifications relevant to the role."
+    },
+    "skills": {
+      "score": 6,
+      "skills_possessed": [
+        "JAVA",
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "UI/Ux Design",
+        "OpenAI API"
+      ],
+      "skills_required": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "scikit-learn",
+        "Machine Learning Algorithms",
+        "Data Pipelines",
+        "RESTful APIs",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "AWS/GCP/Azure"
+      ],
+      "reason": "Possesses skills in Java and web development but critically lacks the required Python, TensorFlow/PyTorch, and core ML skills, resulting in a very low match percentage."
+    },
+    "active_links": {
+      "score": 0,
+      "links": [],
+      "reason": "No active links such as a GitHub portfolio or LinkedIn profile were provided, which are crucial for assessing a developer's work and professional presence."
+    },
+    "projects": {
+      "score": 10,
+      "projects": [
+        "AI based Discord Bot",
+        "Medical APP"
+      ],
+      "reason": "The AI Discord Bot project is relevant, demonstrating use of the OpenAI API. However, the second project is less relevant, and overall complexity does not meet mid-level expectations for building and deploying models from scratch. The score is capped at 15 for having two projects."
+    },
+    "total_score": 27,
+    "overall_assessment": "Abhishek is an entry-level candidate whose profile is a significant mismatch for this mid-level AI Engineer role. He lacks the required 3+ years of experience and the core Python/ML skill set. While his AI project shows interest in the field, his overall qualifications are better suited for a junior or internship position, not the advertised role."
+  },
+  "performance_metrics": {
+    "structured_time_seconds": 33.94,
+    "recommendation": "Use structured method for accuracy, parallel for speed"
+  },
+  "timestamp": "2025-10-05 05:00:16"
+}
